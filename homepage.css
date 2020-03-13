@@ -1,3 +1,5 @@
+/**** Builtins ****/
+
 a:link {
     color: black;
 }
@@ -14,39 +16,109 @@ a:active {
     color: black;
 }
 
-.body {
-    height: 100%;
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+div {
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+/**** Classes ****/
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 2vw solid transparent;
+    border-right: 2vw solid transparent;
+    border-top: 2vw solid #FFFFFF;
+}
+
+.arrow-down:hover {
+    border-top: 2vw solid #DFDFDF;
 }
 
 .center {
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 100vw;
 }
 
 .center-text {
     text-align: center
 }
 
-.panels {
-    padding: 1%;
-    margin-left: 2%;
-    margin-right: 2%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #00FFFF;
-    float: left;
-    width: 29%;
-    box-sizing: border-box;
-}
-
-.panels:hover {
-    background-color: lightgrey;
-}
-
 .splash {
-    padding-top: 30vh;
-    top: 0; left: 0; height: 70vh; width: 100vh;
+    background-color: #0A0A0A;
+    color: white;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
 }
 
+/**** IDs ****/
+
+#name {
+    padding: 0px;
+    margin: 0px;
+    font-size: 18vw;
+}
+
+#pitch {
+    padding: 0px;
+    padding-right: 2vw;
+    margin: 0px;
+    float: right;
+    font-size: 5vw;
+}
+
+#coder {
+    background-color: #313335;
+    color: #A9B7C6;
+    font-size: 2.4vw;
+    font-family: "Courier New", Courier, monospace;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+}
+
+#coder-arrow {
+    position: absolute;
+    top: 195vh;
+    left: 49vw;
+    border-top: 2vw solid #A9B7C6;
+}
+
+#coder-arrow:hover {
+    border-top: 2vw solid #8499AE;
+}
+
+#code-body {
+  padding-top: 2.4vw;
+  padding-left: 16vw;
+}
+
+#line-count {
+    float: left;
+    background-color: #3C3C3C;
+    height: 100vh;
+    width: 8vw;
+    border-right: 1px solid #B3B3B3;
+}
+
+#splash-arrow {
+    position: absolute;
+    top: 95vh;
+    left: 49vw;
+}
