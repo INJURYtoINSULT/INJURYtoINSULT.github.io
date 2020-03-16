@@ -97,7 +97,7 @@ p {
 #coder {
     background-color: #313335;
     color: #A9B7C6;
-    font-size: 2.4vmax;
+    font-size: 2.15vmax;
     font-family: "Courier New", Courier, monospace;
 }
 
@@ -139,5 +139,35 @@ p {
 }
 
 #math {
-    background-color: #346b31;
+    background-color: #343C45;
+    color: #DDE1E6;
+}
+
+#math-body {
+    padding: 8vmin;
+}
+
+#zerojump {
+    font-size: 25vmin;
+}
+
+#zerosubsup {
+    display: inline-block;
+}
+
+#zerosubsup sub,
+#zerosubsup sup {
+    position: relative;
+    display: block;
+    font-size: 11vmin;
+    line-height: .6;
+}
+
+#zerosubsup sub {
+    top: 5vmin;
+}
+
+#math-text {
+    font-size: 2.15vmax;
+    padding: 5vmin;
 }
