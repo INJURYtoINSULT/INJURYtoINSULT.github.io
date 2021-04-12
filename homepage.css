@@ -67,6 +67,12 @@ p {
     width: 100vw;
 }
 
+.game-gifs {
+    padding: 2vmin;
+    float: left;
+    max-width: 30%;
+}
+
 /**** IDs ****/
 
 #splash {
@@ -170,4 +176,34 @@ p {
 #math-text {
     font-size: 2.15vmax;
     padding: 5vmin;
+}
+
+#math-arrow {
+    position: absolute;
+    top: 295vh;
+    left: 49vw;
+    border-top: 2vw solid #DDE1E6;
+}
+
+#current-project {
+    background-color: #B3B3B3;
+    color: #343C45;
+}
+
+#curr-proj-title {
+    font-size: 3vmax;
+    padding: 2vmin;
+}
+
+#current-project-body {
+    padding: 8vmin;
+}
+
+#proj-text {
+    font-size: 1.5vmax;
+    padding: 2vmin;
+}
+
+#gifs {
+    padding: 0;
 }
